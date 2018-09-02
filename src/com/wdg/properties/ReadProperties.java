@@ -20,6 +20,7 @@ public class ReadProperties {
 	@SuppressWarnings("finally")
 	public static Map<String, String> readProperty() {
 		Properties prop = new Properties();
+		
 		String filename = "D:\\github\\SeleniumTestTwo\\properties\\config.properties";
 		Map<String, String> properties = new HashMap<String, String>();
 
