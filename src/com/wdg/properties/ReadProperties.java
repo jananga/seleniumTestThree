@@ -32,6 +32,7 @@ public class ReadProperties {
 			System.out.println("prop values are : "+prop);
 			
 			
+			
 			Set<String> propKeys = prop.stringPropertyNames();
 			
 			System.out.println("Key Length : "+propKeys.size());
